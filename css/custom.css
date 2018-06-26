@@ -214,3 +214,20 @@ ul#gallery  {
 padding: 0;
 margin: 0;
 }
+
+#buttons button {
+  background-color: #d7d7d7;
+  margin: 5px 2px;
+  border: none;
+  padding: 3px 10px 4px 10px;
+  border-radius: 4px;
+  color: #333;
+  font-family: 'Karla', sans-serif;
+  font-size: 100%;
+}
+
+#buttons button:hover, #buttons button.active {
+  background-color: #4228aa;
+  color: #fff;
+  cursor: pointer;
+}
