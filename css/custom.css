@@ -88,7 +88,7 @@
 
 /*shop thumbnails*/
 .thumbnail-square-shop {
-    object-fit: cover;
+    object-fit: scale-down;
     width: 250px;
     height: 250px;
     overflow: hidden;
@@ -227,7 +227,7 @@ margin: 0;
 }
 
 #buttons button:hover, #buttons button.active {
-  background-color: #4228aa;
+  background-color: #a3ca83;
   color: #fff;
   cursor: pointer;
 }
