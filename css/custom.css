@@ -233,43 +233,22 @@ margin: 0;
   cursor: pointer;
 }
 
-/* for sticky */
+/* borrowed from organik*/
 
-/* .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #f5f5f5;
-} */
-
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+.nav.social-links a:first-child {
+  padding-left: 0;
 }
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+
+.nav.social-links a {
+  transition: color 0.3s ease;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* height: 60px;  Set the fixed height of the footer here
-  line-height: 60px;  Vertically center the text there
-  background-color: #f5f5f5; */
+.nav.social-links a:hover {
+  color: #dee2e6 !important;
 }
 
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
-.container {
-  width: auto;
-  /* max-width: 680px; */
-  padding: 0 15px;
+.footer-bottom-copyright {
+  background-color:#444444;
+  color:grey;
 }
