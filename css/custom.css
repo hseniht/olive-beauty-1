@@ -251,3 +251,11 @@ margin: 0;
   background-color:#444444;
   color:grey;
 }
+
+/*=====================================================================================*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
