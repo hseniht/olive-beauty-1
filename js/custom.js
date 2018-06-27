@@ -41,7 +41,7 @@ console.log("Hey testing");
   });
 
   $('<button/>', {                                 // Create empty button
-    text: 'Show All',                              // Add text 'show all'
+    text: 'All Products',                              // Add text 'show all'
     class: 'active',                               // Make it active
     click: function() {                            // Add onclick handler to
       $(this)                                      // Get the clicked on button
